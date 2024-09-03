@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --colorClaro: #E4E7EB;
+  --colorFuente: #1B4956;
+  --colorNaranjaB: #FF7D27;
+  --colorVerdeB: #8BC34A;
+  --colorDeFooter: #BAC0B9;
+  --colorBotones: #1B6872;
+}
