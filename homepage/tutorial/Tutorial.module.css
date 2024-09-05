@@ -1,15 +1,14 @@
 .Tutorial{
     margin-top: 40px;
     background-color: #fff;
-    width: 1350px;
-    height: 1000px;
-    border: 1px solid rgb(0, 0, 0);
+    width: 201vh;
+    height: 500px;
 }
 
 .imagencontenedor{
-    border: red solid 1px;
     margin-left: 35rem;
-    width: 40%;
+    width: 462px;
+    height: 450px;
     margin-top: 2rem;
 }
 
@@ -23,7 +22,7 @@
     margin-top: 20px;
     border-radius: 30px;
     cursor: pointer;
-    margin-left: 35rem;    
+    /* margin-left: 35rem;   */  
     border: 1px solid #306139;
 
 }
@@ -39,12 +38,19 @@
     border-radius: 30px;
     cursor: pointer;
     box-shadow: black;
-    margin-left: 2rem;  
+    margin-left: 1rem;  
     margin-bottom: 10rem;
     border: 1px solid #FF7D27;
       
 }
+.imagencontenedor{
 
-.botones{
-    display: flex;
+    width: 530px;
+    height: 450px;
+}
+.videocontenedor{
+
+    width: 500px;
+    margin-top: -388px;
+    margin-left: 15px;
 }

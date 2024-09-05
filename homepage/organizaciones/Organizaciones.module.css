@@ -1,0 +1,12 @@
+.Organizaciones{
+    width: 1250px;
+    height: 500px;
+    display: flex;
+}
+
+.container{
+    width: 500px;
+    height: 100px;
+    background-color: blueviolet;
+    align-items: center;
+}
