@@ -1,12 +1,79 @@
-.Organizaciones{
-    width: 1250px;
-    height: 500px;
-    display: flex;
+.Organizaciones {
+  width: 1101px;
+  height: 600px;
+}
+.h1 {
+  width: 300px;
+  color: #1b4956;
+  margin-left: 20px;
+  font-size: 2em;
+  margin-top: 20px;
+}
+.h2 {
+  width: 400px;
+  color: aliceblue;
+  margin-left: 20px;
+  font-size: 1.2em;
+  margin-top: 20px;
 }
 
-.container{
-    width: 500px;
-    height: 100px;
-    background-color: blueviolet;
-    align-items: center;
+.container {
+  width: 95%;
+  height: auto;
+  background-color: #81b4af;
+  margin: 0;
+  border: 1px solid #272242;
+  margin-top: 90px;
+  margin-left: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
+.containerImagen {
+  width: 50%;
+  height: 10%;
+  margin-top: -430px;
+  margin-left: 500px;
+}
+.botonexplorar{
+    background-color: #f7f4f2;
+    color: #306139;
+    width: 250px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20rem;
+    padding: 7px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 1rem;  
+    margin-bottom: 10rem;
+    border: 1px solid #FF7D27;
+    margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 60%;
+  }
+  .containerImagen {
+    width: 35%;
+    height: auto;
+    margin-top: -430px;
+    margin-left: 20em;
+  }
+  .h1 {
+    width: 300px;
+    color: #1b4956;
+    margin-left: 20px;
+    font-size: 1em;
+    margin-top: 20px;
+  }
+  .h2 {
+    width: 400px;
+    color: aliceblue;
+    margin-left: 20px;
+    font-size: 0.9em;
+    margin-top: 20px;
+  }
 }
